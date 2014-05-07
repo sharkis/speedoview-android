@@ -1,0 +1,8 @@
+Speedoview-Android
+20140506
+Albert Sharkis
+sharkis@sharkis.org
+
+Simple half-arc indicator for Android, no parameters yet.
+
+Include in your xml or add programmatically. Right now, all you can do is set the speed using setSpeed(speed);
