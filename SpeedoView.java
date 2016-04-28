@@ -29,11 +29,11 @@ class SpeedoView extends View{
 
 	public SpeedoView(Context context, AttributeSet attrs) {
 		super(context, attrs);
-		//custom attributes if I can ever be arsed
 		init();
 	}
 
 	private void init(){
+		//TODO: make colors configurable
 		mTextPaint = new Paint(Paint.ANTI_ALIAS_FLAG);
 		mTextPaint.setColor(mTextColor);
 		mTextPaint.setTextSize(40);
